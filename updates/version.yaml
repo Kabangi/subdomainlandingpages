@@ -1,0 +1,4 @@
+1.0.0:
+    - First version of Multidomain
+    - create_settings_table.php
+    - Add is_protected value to all records

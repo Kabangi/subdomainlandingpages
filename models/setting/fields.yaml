@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    domain:
+        label: julius.multidomain::lang.domain.label 
+        type: text
+        comment: julius.multidomain::lang.domain.comment
+
+    page_url:
+        label: julius.multidomain::lang.domain.page-label
+        type: dropdown
+        comment: julius.multidomain::lang.domain.page-comment
+    type:
+        label: julius.multidomain::lang.domain.type-label
+        type: text
+        hidden: true
+        comment: julius.multidomain::lang.domain.type-comment
+    is_protected:
+        label: julius.multidomain::lang.domain.protect-label
+        type: checkbox
+        default: false
+        comment: julius.multidomain::lang.domain.protect-comment

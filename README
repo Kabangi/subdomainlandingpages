@@ -1,0 +1,8 @@
+Julius Multidomain Plugin
+===========================
+
+Multiple landing pages based on domain plugin for OctoberCMS
+
+Features:
+- Register landing pages for different domains
+- Filter which domains can use backend

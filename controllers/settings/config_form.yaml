@@ -1,0 +1,27 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Setting
+
+# Model Form Field configuration
+form: $/julius/multidomain/models/setting/fields.yaml
+
+# Model Class name
+modelClass: Julius\Multidomain\Models\Setting
+
+# Default redirect location
+defaultRedirect: julius/multidomain/settings
+
+# Create page
+create:
+    title: julius.multidomain::lang.controller.create
+    redirect: julius/multidomain/settings/update/:id
+    redirectClose: julius/multidomain/settings
+
+# Update page
+update:
+    title: julius.multidomain::lang.controller.create
+    redirect: julius/multidomain/settings
+    redirectClose: julius/multidomain/settings
